@@ -173,7 +173,7 @@ class DownloadVideo(QObject):
                 video_valid = True
 
                 tube = pytube.YouTube(str(video_link), on_progress_callback=self.progress_function)
-                self.video_tube = tube.streams.filter(res=video_quality_current, file_extension="mp4").first()
+                self.video_tube = tube.streams.filter(res=video_quality_current, file_extension="mp4", progressive=True).first()
                 self.video_tube.download(output_path=video_folder_path,
                                          filename=str(video.title) + " - " + str(video_quality_current))
 

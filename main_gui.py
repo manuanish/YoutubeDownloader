@@ -23,14 +23,14 @@ class Ui_MainWindow(object):
         font.setPointSize(8)
         self.main_frame.setFont(font)
         self.main_frame.setStyleSheet("background-color: rgb(50, 63, 75);\n"
-                                      "border-radius: 5px;")
+"border-radius: 5px;")
         self.main_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.main_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.main_frame.setObjectName("main_frame")
         self.inside_frame = QtWidgets.QFrame(self.main_frame)
         self.inside_frame.setGeometry(QtCore.QRect(20, 20, 441, 571))
         self.inside_frame.setStyleSheet("    background-color: rgb(31, 41, 51);\n"
-                                        "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.inside_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.inside_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.inside_frame.setObjectName("inside_frame")
@@ -47,69 +47,69 @@ class Ui_MainWindow(object):
         self.download_button = QtWidgets.QPushButton(self.inside_frame)
         self.download_button.setGeometry(QtCore.QRect(20, 520, 61, 30))
         self.download_button.setStyleSheet("QPushButton {\n"
-                                           "    border: 2px solid rgb(85, 170, 255);\n"
-                                           "    border-radius: 5px;    \n"
-                                           "    background-color: rgb(85, 170, 255);\n"
-                                           "    color: rgb(31, 41, 51)\n"
-                                           "}\n"
-                                           "QPushButton:hover {\n"
-                                           "    background-color: rgb(50, 190, 255);\n"
-                                           "    border: 2px solid rgb(50, 190, 255);\n"
-                                           "}\n"
-                                           "")
+"    border: 2px solid rgb(85, 170, 255);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(85, 170, 255);\n"
+"    color: rgb(31, 41, 51)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(50, 190, 255);\n"
+"    border: 2px solid rgb(50, 190, 255);\n"
+"}\n"
+"")
         self.download_button.setObjectName("download_button")
         self.file_options_frame = QtWidgets.QFrame(self.inside_frame)
         self.file_options_frame.setGeometry(QtCore.QRect(20, 320, 141, 91))
         self.file_options_frame.setStyleSheet("    background-color: rgb(82, 96, 109);\n"
-                                              "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.file_options_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.file_options_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.file_options_frame.setObjectName("file_options_frame")
         self.mp3_radio_button = QtWidgets.QRadioButton(self.file_options_frame)
         self.mp3_radio_button.setGeometry(QtCore.QRect(9, 32, 96, 21))
         self.mp3_radio_button.setStyleSheet("QRadioButton::indicator {\n"
-                                            "    border: 3px solid rgb(62, 76, 89);\n"
-                                            "    width: 15px;\n"
-                                            "    height: 15px;\n"
-                                            "    border-radius: 10px;\n"
-                                            "    background: rgb(50, 63, 75);\n"
-                                            "}\n"
-                                            "\n"
-                                            "QRadioButton { \n"
-                                            "    color: rgb(154, 165, 177)\n"
-                                            "\n"
-                                            "}\n"
-                                            "\n"
-                                            "QRadioButton::indicator:hover {\n"
-                                            "    border: 3px solid rgb(62, 76, 89);\n"
-                                            "}\n"
-                                            "QRadioButton::indicator:checked {\n"
-                                            "    background: 3px solid rgb(94, 106, 130);\n"
-                                            "    border: 3px solid rgb(50, 63, 75);    \n"
-                                            "}")
+"    border: 3px solid rgb(62, 76, 89);\n"
+"    width: 15px;\n"
+"    height: 15px;\n"
+"    border-radius: 10px;\n"
+"    background: rgb(50, 63, 75);\n"
+"}\n"
+"\n"
+"QRadioButton { \n"
+"    color: rgb(154, 165, 177)\n"
+"\n"
+"}\n"
+"\n"
+"QRadioButton::indicator:hover {\n"
+"    border: 3px solid rgb(62, 76, 89);\n"
+"}\n"
+"QRadioButton::indicator:checked {\n"
+"    background: 3px solid rgb(94, 106, 130);\n"
+"    border: 3px solid rgb(50, 63, 75);    \n"
+"}")
         self.mp3_radio_button.setObjectName("mp3_radio_button")
         self.mp4_radio_button = QtWidgets.QRadioButton(self.file_options_frame)
         self.mp4_radio_button.setGeometry(QtCore.QRect(9, 61, 96, 21))
         self.mp4_radio_button.setStyleSheet("QRadioButton::indicator {\n"
-                                            "    border: 3px solid rgb(62, 76, 89);\n"
-                                            "    width: 15px;\n"
-                                            "    height: 15px;\n"
-                                            "    border-radius: 10px;\n"
-                                            "    background: rgb(50, 63, 75);\n"
-                                            "}\n"
-                                            "\n"
-                                            "QRadioButton { \n"
-                                            "    color: rgb(154, 165, 177)\n"
-                                            "\n"
-                                            "}\n"
-                                            "\n"
-                                            "QRadioButton::indicator:hover {\n"
-                                            "    border: 3px solid rgb(62, 76, 89);\n"
-                                            "}\n"
-                                            "QRadioButton::indicator:checked {\n"
-                                            "    background: 3px solid rgb(94, 106, 130);\n"
-                                            "    border: 3px solid rgb(50, 63, 75);    \n"
-                                            "}")
+"    border: 3px solid rgb(62, 76, 89);\n"
+"    width: 15px;\n"
+"    height: 15px;\n"
+"    border-radius: 10px;\n"
+"    background: rgb(50, 63, 75);\n"
+"}\n"
+"\n"
+"QRadioButton { \n"
+"    color: rgb(154, 165, 177)\n"
+"\n"
+"}\n"
+"\n"
+"QRadioButton::indicator:hover {\n"
+"    border: 3px solid rgb(62, 76, 89);\n"
+"}\n"
+"QRadioButton::indicator:checked {\n"
+"    background: 3px solid rgb(94, 106, 130);\n"
+"    border: 3px solid rgb(50, 63, 75);    \n"
+"}")
         self.mp4_radio_button.setChecked(True)
         self.mp4_radio_button.setObjectName("mp4_radio_button")
         self.file_options_text = QtWidgets.QLabel(self.file_options_frame)
@@ -122,10 +122,27 @@ class Ui_MainWindow(object):
         self.file_options_text.setFont(font)
         self.file_options_text.setStyleSheet("color: rgb(154, 165, 177)")
         self.file_options_text.setObjectName("file_options_text")
+        self.coming_soon_frame = QtWidgets.QFrame(self.file_options_frame)
+        self.coming_soon_frame.setGeometry(QtCore.QRect(0, 0, 141, 91))
+        self.coming_soon_frame.setStyleSheet("    background-color: rgba(82, 96, 109, 100);\n"
+"    border-radius: 5px;")
+        self.coming_soon_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.coming_soon_frame.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.coming_soon_frame.setObjectName("coming_soon_frame")
+        self.coming_soon_text = QtWidgets.QLabel(self.coming_soon_frame)
+        self.coming_soon_text.setGeometry(QtCore.QRect(20, 35, 101, 20))
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI")
+        font.setPointSize(8)
+        font.setBold(True)
+        font.setWeight(75)
+        self.coming_soon_text.setFont(font)
+        self.coming_soon_text.setStyleSheet("color: rgb(154, 165, 177)")
+        self.coming_soon_text.setObjectName("coming_soon_text")
         self.video_quality_frame = QtWidgets.QFrame(self.inside_frame)
         self.video_quality_frame.setGeometry(QtCore.QRect(170, 320, 251, 91))
         self.video_quality_frame.setStyleSheet("    background-color: rgb(82, 96, 109);\n"
-                                               "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.video_quality_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.video_quality_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.video_quality_frame.setObjectName("video_quality_frame")
@@ -142,59 +159,59 @@ class Ui_MainWindow(object):
         self.video_quality_selctor_frame = QtWidgets.QFrame(self.video_quality_frame)
         self.video_quality_selctor_frame.setGeometry(QtCore.QRect(10, 30, 225, 51))
         self.video_quality_selctor_frame.setStyleSheet("    background-color: rgb(62, 76, 89);\n"
-                                                       "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.video_quality_selctor_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.video_quality_selctor_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.video_quality_selctor_frame.setObjectName("video_quality_selctor_frame")
         self.button_240p = QtWidgets.QPushButton(self.video_quality_selctor_frame)
         self.button_240p.setGeometry(QtCore.QRect(5, 4, 40, 42))
         self.button_240p.setStyleSheet("QPushButton {\n"
-                                       "    border: 2px solid rgb(82, 96, 109);\n"
-                                       "    border-radius: 5px;    \n"
-                                       "    background-color: rgb(82, 96, 109);\n"
-                                       "    color: rgb(154, 165, 177)\n"
-                                       "}\n"
-                                       "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"")
         self.button_240p.setObjectName("button_240p")
         self.button_360p = QtWidgets.QPushButton(self.video_quality_selctor_frame)
         self.button_360p.setGeometry(QtCore.QRect(49, 4, 40, 42))
         self.button_360p.setStyleSheet("QPushButton {\n"
-                                       "    border: 2px solid rgb(82, 96, 109);\n"
-                                       "    border-radius: 5px;    \n"
-                                       "    background-color: rgb(82, 96, 109);\n"
-                                       "    color: rgb(154, 165, 177)\n"
-                                       "}\n"
-                                       "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"")
         self.button_360p.setObjectName("button_360p")
         self.button_480p = QtWidgets.QPushButton(self.video_quality_selctor_frame)
         self.button_480p.setGeometry(QtCore.QRect(93, 4, 40, 42))
         self.button_480p.setStyleSheet("QPushButton {\n"
-                                       "    border: 2px solid rgb(82, 96, 109);\n"
-                                       "    border-radius: 5px;    \n"
-                                       "    background-color: rgb(82, 96, 109);\n"
-                                       "    color: rgb(154, 165, 177)\n"
-                                       "}\n"
-                                       "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"")
         self.button_480p.setObjectName("button_480p")
         self.button_720p = QtWidgets.QPushButton(self.video_quality_selctor_frame)
         self.button_720p.setGeometry(QtCore.QRect(137, 4, 40, 42))
         self.button_720p.setStyleSheet("QPushButton {\n"
-                                       "    border: 2px solid rgb(82, 96, 109);\n"
-                                       "    border-radius: 5px;    \n"
-                                       "    background-color: rgb(82, 96, 109);\n"
-                                       "    color: rgb(154, 165, 177)\n"
-                                       "}\n"
-                                       "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"")
         self.button_720p.setObjectName("button_720p")
         self.button_1080p = QtWidgets.QPushButton(self.video_quality_selctor_frame)
         self.button_1080p.setGeometry(QtCore.QRect(181, 4, 40, 42))
         self.button_1080p.setStyleSheet("QPushButton {\n"
-                                        "    border: 2px solid rgb(82, 96, 109);\n"
-                                        "    border-radius: 5px;    \n"
-                                        "    background-color: rgb(82, 96, 109);\n"
-                                        "    color: rgb(154, 165, 177)\n"
-                                        "}\n"
-                                        "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"")
         self.button_1080p.setObjectName("button_1080p")
         self.video_quality_highlighter_frame = QtWidgets.QFrame(self.video_quality_selctor_frame)
         self.video_quality_highlighter_frame.setGeometry(QtCore.QRect(48, 4, 40, 42))
@@ -205,7 +222,7 @@ class Ui_MainWindow(object):
         self.video_save_path_frame = QtWidgets.QFrame(self.inside_frame)
         self.video_save_path_frame.setGeometry(QtCore.QRect(20, 420, 401, 80))
         self.video_save_path_frame.setStyleSheet("    background-color:rgb(62, 76, 89);\n"
-                                                 "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.video_save_path_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.video_save_path_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.video_save_path_frame.setObjectName("video_save_path_frame")
@@ -225,33 +242,33 @@ class Ui_MainWindow(object):
         self.file_location_line_edit.setFont(font)
         self.file_location_line_edit.setCursor(QtGui.QCursor(QtCore.Qt.IBeamCursor))
         self.file_location_line_edit.setStyleSheet("QLineEdit {\n"
-                                                   "    background-color: rgb(82, 96, 109);\n"
-                                                   "    border-radius: 5px;\n"
-                                                   "    border: 2px solid rgb(82, 96, 109);\n"
-                                                   "    padding-left: 10px;\n"
-                                                   "    color: rgb(154, 165, 177)\n"
-                                                   "}\n"
-                                                   "QLineEdit:hover {\n"
-                                                   "    border: 2px solid rgb(50, 63, 75);\n"
-                                                   "}\n"
-                                                   "QLineEdit:focus {\n"
-                                                   "    border: 2px solid rgb(50, 63, 75);\n"
-                                                   "}")
+"    background-color: rgb(82, 96, 109);\n"
+"    border-radius: 5px;\n"
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    padding-left: 10px;\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QLineEdit:hover {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}\n"
+"QLineEdit:focus {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}")
         self.file_location_line_edit.setText("")
         self.file_location_line_edit.setObjectName("file_location_line_edit")
         self.save_path_button = QtWidgets.QPushButton(self.video_save_path_frame)
         self.save_path_button.setGeometry(QtCore.QRect(10, 40, 91, 30))
         self.save_path_button.setStyleSheet("QPushButton {\n"
-                                            "    border: 2px solid rgb(82, 96, 109);\n"
-                                            "    border-radius: 5px;    \n"
-                                            "    background-color: rgb(82, 96, 109);\n"
-                                            "    color: rgb(154, 165, 177)\n"
-                                            "}\n"
-                                            "QPushButton:hover {\n"
-                                            "    background-color: rgb(97, 110, 124);\n"
-                                            "    border: 2px solid rgb(97, 110, 124);\n"
-                                            "}\n"
-                                            "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(97, 110, 124);\n"
+"    border: 2px solid rgb(97, 110, 124);\n"
+"}\n"
+"")
         self.save_path_button.setObjectName("save_path_button")
         self.video_save_path_text = QtWidgets.QLabel(self.video_save_path_frame)
         self.video_save_path_text.setGeometry(QtCore.QRect(8, 6, 211, 16))
@@ -266,7 +283,7 @@ class Ui_MainWindow(object):
         self.video_preview_frame = QtWidgets.QFrame(self.inside_frame)
         self.video_preview_frame.setGeometry(QtCore.QRect(100, 160, 240, 130))
         self.video_preview_frame.setStyleSheet("    background-color:rgb(62, 76, 89);\n"
-                                               "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.video_preview_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.video_preview_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.video_preview_frame.setObjectName("video_preview_frame")
@@ -294,18 +311,18 @@ class Ui_MainWindow(object):
         self.views_button_icon.setEnabled(False)
         self.views_button_icon.setGeometry(QtCore.QRect(0, 95, 41, 30))
         self.views_button_icon.setStyleSheet("QPushButton {\n"
-                                             "    border-radius: 5px;    \n"
-                                             "    background-color: rgb(62, 76, 89);\n"
-                                             "    color: rgb(154, 165, 177)\n"
-                                             "}\n"
-                                             "QPushButton:hover {\n"
-                                             "    background-color: rgb(97, 110, 124);\n"
-                                             "    border: 2px solid rgb(97, 110, 124);\n"
-                                             "}\n"
-                                             "QPushButton:pressed {    \n"
-                                             "    background-color: rgb(170, 0, 170);\n"
-                                             "    border: 2px solid rgb(170, 0, 170);\n"
-                                             "}")
+"    border-radius: 5px;    \n"
+"    background-color: rgb(62, 76, 89);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(97, 110, 124);\n"
+"    border: 2px solid rgb(97, 110, 124);\n"
+"}\n"
+"QPushButton:pressed {    \n"
+"    background-color: rgb(170, 0, 170);\n"
+"    border: 2px solid rgb(170, 0, 170);\n"
+"}")
         self.views_button_icon.setText("")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icons/24x24/cil-people.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -324,16 +341,16 @@ class Ui_MainWindow(object):
         self.refresh_video_preview_button = QtWidgets.QPushButton(self.video_preview_frame)
         self.refresh_video_preview_button.setGeometry(QtCore.QRect(200, 90, 31, 30))
         self.refresh_video_preview_button.setStyleSheet("QPushButton {\n"
-                                                        "    border: 2px solid rgb(82, 96, 109);\n"
-                                                        "    border-radius: 5px;    \n"
-                                                        "    background-color: rgb(82, 96, 109);\n"
-                                                        "    color: rgb(154, 165, 177)\n"
-                                                        "}\n"
-                                                        "QPushButton:hover {\n"
-                                                        "    background-color: rgb(97, 110, 124);\n"
-                                                        "    border: 2px solid rgb(97, 110, 124);\n"
-                                                        "}\n"
-                                                        "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(97, 110, 124);\n"
+"    border: 2px solid rgb(97, 110, 124);\n"
+"}\n"
+"")
         self.refresh_video_preview_button.setText("")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("icons/24x24/cil-loop-circular.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -354,33 +371,33 @@ class Ui_MainWindow(object):
         self.video_link_line_edit.setFont(font)
         self.video_link_line_edit.setCursor(QtGui.QCursor(QtCore.Qt.IBeamCursor))
         self.video_link_line_edit.setStyleSheet("QLineEdit {\n"
-                                                "    background-color: rgb(82, 96, 109);\n"
-                                                "    border-radius: 5px;\n"
-                                                "    border: 2px solid rgb(82, 96, 109);\n"
-                                                "    padding-left: 10px;\n"
-                                                "    color: rgb(154, 165, 177)\n"
-                                                "}\n"
-                                                "QLineEdit:hover {\n"
-                                                "    border: 2px solid rgb(50, 63, 75);\n"
-                                                "}\n"
-                                                "QLineEdit:focus {\n"
-                                                "    border: 2px solid rgb(50, 63, 75);\n"
-                                                "}")
+"    background-color: rgb(82, 96, 109);\n"
+"    border-radius: 5px;\n"
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    padding-left: 10px;\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QLineEdit:hover {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}\n"
+"QLineEdit:focus {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}")
         self.video_link_line_edit.setText("")
         self.video_link_line_edit.setObjectName("video_link_line_edit")
         self.close_button = QtWidgets.QPushButton(self.main_frame)
         self.close_button.setGeometry(QtCore.QRect(446, 9, 25, 25))
         self.close_button.setStyleSheet("QPushButton {\n"
-                                        "    border: 2px solid rgb(180, 0, 0);\n"
-                                        "    border-radius: 5px;    \n"
-                                        "    background-color: rgb(180, 0, 0);\n"
-                                        "    color: rgb(154, 165, 177)\n"
-                                        "}\n"
-                                        "QPushButton:hover {\n"
-                                        "    background-color: rgb(200, 0, 0);\n"
-                                        "    border: 2px solid rgb(200, 0, 0);\n"
-                                        "}\n"
-                                        "")
+"    border: 2px solid rgb(180, 0, 0);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(180, 0, 0);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(200, 0, 0);\n"
+"    border: 2px solid rgb(200, 0, 0);\n"
+"}\n"
+"")
         self.close_button.setText("")
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap("icons/24x24/cil-x.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -391,7 +408,7 @@ class Ui_MainWindow(object):
         self.downloading_frame.setEnabled(True)
         self.downloading_frame.setGeometry(QtCore.QRect(80, 190, 321, 101))
         self.downloading_frame.setStyleSheet("    background-color: rgb(62, 76, 89);\n"
-                                             "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.downloading_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.downloading_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.downloading_frame.setObjectName("downloading_frame")
@@ -411,22 +428,22 @@ class Ui_MainWindow(object):
         font.setFamily("Segoe UI")
         self.video_downloading_progress_bar.setFont(font)
         self.video_downloading_progress_bar.setStyleSheet("QProgressBar {\n"
-                                                          "    background-color: rgb(98, 114, 164);\n"
-                                                          "    color: rgb(31, 41, 51);\n"
-                                                          "    border-style: none;\n"
-                                                          "    border-radius: 10px;\n"
-                                                          "    text-align: center;\n"
-                                                          "}\n"
-                                                          "QProgressBar::chunk{\n"
-                                                          "    border-radius: 10px;\n"
-                                                          "    background-color: qlineargradient(spread:pad, x1:0, y1:0.693, x2:1, y2:0.75, stop:0 rgb(131, 201, 255), stop:1 rgba(229, 49, 255, 255))\n"
-                                                          "}")
+"    background-color: rgb(98, 114, 164);\n"
+"    color: rgb(31, 41, 51);\n"
+"    border-style: none;\n"
+"    border-radius: 10px;\n"
+"    text-align: center;\n"
+"}\n"
+"QProgressBar::chunk{\n"
+"    border-radius: 10px;\n"
+"    background-color: qlineargradient(spread:pad, x1:0, y1:0.693, x2:1, y2:0.75, stop:0 rgb(131, 201, 255), stop:1 rgba(229, 49, 255, 255))\n"
+"}")
         self.video_downloading_progress_bar.setProperty("value", 0)
         self.video_downloading_progress_bar.setObjectName("video_downloading_progress_bar")
         self.disable_background_frame = QtWidgets.QFrame(self.main_frame)
         self.disable_background_frame.setGeometry(QtCore.QRect(0, 0, 481, 611))
         self.disable_background_frame.setStyleSheet("    background-color: rgba(31, 41, 51, 150);\n"
-                                                    "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.disable_background_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.disable_background_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.disable_background_frame.setObjectName("disable_background_frame")
@@ -434,7 +451,7 @@ class Ui_MainWindow(object):
         self.error_frame.setEnabled(True)
         self.error_frame.setGeometry(QtCore.QRect(80, 190, 321, 101))
         self.error_frame.setStyleSheet("    background-color: rgb(62, 76, 89);\n"
-                                       "    border-radius: 5px;")
+"    border-radius: 5px;")
         self.error_frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.error_frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.error_frame.setObjectName("error_frame")
@@ -464,33 +481,33 @@ class Ui_MainWindow(object):
         self.error_message_line_edit.setFont(font)
         self.error_message_line_edit.setCursor(QtGui.QCursor(QtCore.Qt.IBeamCursor))
         self.error_message_line_edit.setStyleSheet("QLineEdit {\n"
-                                                   "    background-color: rgb(82, 96, 109);\n"
-                                                   "    border-radius: 5px;\n"
-                                                   "    border: 2px solid rgb(82, 96, 109);\n"
-                                                   "    padding-left: 10px;\n"
-                                                   "    color: rgb(154, 165, 177)\n"
-                                                   "}\n"
-                                                   "QLineEdit:hover {\n"
-                                                   "    border: 2px solid rgb(50, 63, 75);\n"
-                                                   "}\n"
-                                                   "QLineEdit:focus {\n"
-                                                   "    border: 2px solid rgb(50, 63, 75);\n"
-                                                   "}")
+"    background-color: rgb(82, 96, 109);\n"
+"    border-radius: 5px;\n"
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    padding-left: 10px;\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QLineEdit:hover {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}\n"
+"QLineEdit:focus {\n"
+"    border: 2px solid rgb(50, 63, 75);\n"
+"}")
         self.error_message_line_edit.setText("")
         self.error_message_line_edit.setObjectName("error_message_line_edit")
         self.close_error_frame_button = QtWidgets.QPushButton(self.error_frame)
         self.close_error_frame_button.setGeometry(QtCore.QRect(290, 6, 25, 25))
         self.close_error_frame_button.setStyleSheet("QPushButton {\n"
-                                                    "    border: 2px solid rgb(82, 96, 109);\n"
-                                                    "    border-radius: 5px;    \n"
-                                                    "    background-color: rgb(82, 96, 109);\n"
-                                                    "    color: rgb(154, 165, 177)\n"
-                                                    "}\n"
-                                                    "QPushButton:hover {\n"
-                                                    "    background-color: rgb(200, 0, 0);\n"
-                                                    "    border: 2px solid rgb(200, 0, 0);\n"
-                                                    "}\n"
-                                                    "")
+"    border: 2px solid rgb(82, 96, 109);\n"
+"    border-radius: 5px;    \n"
+"    background-color: rgb(82, 96, 109);\n"
+"    color: rgb(154, 165, 177)\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(200, 0, 0);\n"
+"    border: 2px solid rgb(200, 0, 0);\n"
+"}\n"
+"")
         self.close_error_frame_button.setText("")
         self.close_error_frame_button.setIcon(icon2)
         self.close_error_frame_button.setIconSize(QtCore.QSize(16, 16))
@@ -512,6 +529,7 @@ class Ui_MainWindow(object):
         self.mp3_radio_button.setText(_translate("MainWindow", "Mp3"))
         self.mp4_radio_button.setText(_translate("MainWindow", "Mp4"))
         self.file_options_text.setText(_translate("MainWindow", "FILE OPTIONS"))
+        self.coming_soon_text.setText(_translate("MainWindow", "COMING SOON!"))
         self.video_quality_text.setText(_translate("MainWindow", "VIDEO QUALITY"))
         self.button_240p.setText(_translate("MainWindow", "240p"))
         self.button_360p.setText(_translate("MainWindow", "360p"))
@@ -532,7 +550,6 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()

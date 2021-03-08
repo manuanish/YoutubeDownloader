@@ -223,6 +223,50 @@ QRadioButton::indicator:checked {
         <string>FILE OPTIONS</string>
        </property>
       </widget>
+      <widget class="QFrame" name="coming_soon_frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>141</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	background-color: rgba(82, 96, 109, 100);
+	border-radius: 5px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="coming_soon_text">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>35</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(154, 165, 177)</string>
+        </property>
+        <property name="text">
+         <string>COMING SOON!</string>
+        </property>
+       </widget>
+      </widget>
      </widget>
      <widget class="QFrame" name="video_quality_frame">
       <property name="geometry">
@@ -1032,7 +1076,7 @@ QPushButton:hover {
   </widget>
  </widget>
  <resources>
-  <include location="../../Desktop/Simple_PySide_Base-master/Simple_PySide_Base-master/files.qrc"/>
+  <include location="../../../../Desktop/Simple_PySide_Base-master/Simple_PySide_Base-master/files.qrc"/>
  </resources>
  <connections/>
 </ui>

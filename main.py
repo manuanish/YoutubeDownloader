@@ -457,7 +457,6 @@ class Window(QMainWindow):
 
         # finish
         video_quality_current = video_quality_new
-        print(video_quality_current)
 
     ##################
     ### SUBPROCESS ###

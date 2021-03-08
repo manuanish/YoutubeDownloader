@@ -1,5 +1,6 @@
 # YoutubeDownloader
 
 PyQt5 GUI for downloading videos from youtube using the pytube library. 
+
 ![preview_image](https://user-images.githubusercontent.com/54843973/110298650-d8383780-801a-11eb-9f08-78c78d2a3310.png)
 
